@@ -24,7 +24,7 @@ function parOInpar(numero){
 
 //comienza el juego
 while (seguir!=false && vidaRestante>0){
-    let ingresar = prompt("Bienvenido mi al juego desea continuar?").toLowerCase();
+    let ingresar = prompt(`Bienvenido al juego desea continuar? escriba si o no` ).toLowerCase();
     if(ingresar.toLowerCase()==="si" ){
         alert("bienvenido a la aventura")
         let opcion=parseInt(prompt("Estas en la entrada del juego hay 3 puertas , que puerta va a tomar? 1,2,3? si quieres saber tus vidas presiona 0"))
